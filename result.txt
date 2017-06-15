@@ -1,0 +1,16 @@
+The page views for 3 most popular articles
+
+Candidate is jerk, alleges rival: 338647
+Bears love berries, alleges bear: 253801
+Bad things gone, say good people: 170098
+
+The page views for most popular authors
+
+Ursula La Multa: 512805
+Rudolf von Treppenwitz: 427781
+Anonymous Contributor: 171762
+Markoff Chaney: 85387
+
+The days on which the error rate is more than 1%
+
+2016-07-17: 0.023

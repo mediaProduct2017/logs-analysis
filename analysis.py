@@ -6,7 +6,6 @@ from reporting import Reporting
 DBNAME = 'news'
 
 analyst = Reporting(DBNAME)
-analyst.create_view()
 analyst.answer_question1()
 result1 = analyst.cur.fetchall()
 print 'Finish Question 1'

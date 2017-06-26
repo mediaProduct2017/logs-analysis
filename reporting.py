@@ -14,6 +14,7 @@ class Reporting(object):
 
     def close(self):
         try:
+            self.cur.close()
             self.db.close()
         except AttributeError:
             print "Reporting instance has no attribute 'db'"
@@ -65,3 +66,4 @@ class Reporting(object):
         self.view_question1()
         self.view_question2()
         self.view_question3()
+        self.db.commit()
